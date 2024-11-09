@@ -4,22 +4,22 @@ x-common:
     &db-environment
     # Do not remove the "&db-password" from the end of the line below, it is important
     # for Panel functionality.
-    MYSQL_PASSWORD: &db-password "CHANGE_ME"
-    MYSQL_ROOT_PASSWORD: "CHANGE_ME"
+    MYSQL_PASSWORD: &db-password "passwd"
+    MYSQL_ROOT_PASSWORD: "passwd"
   panel:
     &panel-environment
-    APP_URL: "https://panel.example.com"
+    APP_URL: "panel.aqweb.my.id"
     # A list of valid timezones can be found here: http://php.net/manual/en/timezones.php
     APP_TIMEZONE: "UTC"
-    APP_SERVICE_AUTHOR: "admin@example.com"
+    APP_SERVICE_AUTHOR: "aqsob@gmail.co"
   mail:
     &mail-environment
-    MAIL_FROM: "noreply@example.com"
+    MAIL_FROM: "aqsob@gmail.co"
     MAIL_DRIVER: "smtp"
-    MAIL_HOST: "mail"
+    MAIL_HOST: "aqsob@gmail.co"
     MAIL_PORT: "1025"
-    MAIL_USERNAME: ""
-    MAIL_PASSWORD: ""
+    MAIL_USERNAME: "admin"
+    MAIL_PASSWORD: "admin"
     MAIL_ENCRYPTION: "true"
 
 #
